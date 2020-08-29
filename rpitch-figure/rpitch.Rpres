@@ -1,0 +1,31 @@
+DEVELOPING DATA PRODUCTS
+========================================================
+author: Shashwenth
+date: 29/8/2020
+autosize: true
+
+Iris Data
+========================================================
+The iris data set is one of the widely use dataset for practicing basic commands.
+```{r}
+data(iris)
+head(iris,3)
+```
+
+Load ggplot2
+========================================================
+ggplot2 is one of the most powerful ploting tools to ever exist.
+```{r}
+library(evaluate)
+library(ggplot2)
+```
+
+Plot 
+========================================================
+
+```{r,echo=FALSE}
+qplot(x=iris$Petal.Length,y=iris$Petal.Width,color=as.factor(iris$Species))
+```
+
+THANK YOU
+========================================================
